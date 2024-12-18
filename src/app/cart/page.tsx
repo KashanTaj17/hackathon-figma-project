@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 function Cart () {
     return (
@@ -7,7 +8,7 @@ function Cart () {
           <div className="absolute inset-0 bg-black opacity-20"></div>
           <div className="relative z-10 flex items-center justify-center h-full text-center">            
             <div>
-            <img src="/Logo101.png" alt="logoo" className="w-[79px] h-[79px]" />
+            <Image src="/Logo101.png" alt="logoo" className="w-[79px] h-[79px]" />
               <h1 className="text-4xl font-bold text-black mb-2">Cart</h1>
               <p className="text-gray-600 text-sm">Home &gt; Cart</p>
             </div>
@@ -31,7 +32,7 @@ function Cart () {
                 <tbody>
                   <tr className="border-t">
                     <td className="p-4 flex items-center">
-                      <img src="/Image_26.png" alt="Asgaard sofa" className="w-[111px] h-[90px] rounded mr-4" />
+                      <Image src="/Image_26.png" alt="Asgaard sofa" className="w-[111px] h-[90px] rounded mr-4" />
                       <span className="text-gray-700">Asgaard sofa</span>
                     </td>
                     <td className="p-4 text-gray-700">Rs. 250,000.00</td>
@@ -45,7 +46,7 @@ function Cart () {
                     <td className="p-4 text-gray-700">Rs. 250,000.00</td>
                     <td className="p-4">
                       <button>
-                        <img src="/Vector (1).png" alt="Remove" className="w-[21px] h-[21.88px]" />
+                        <Image src="/Vector (1).png" alt="Remove" className="w-[21px] h-[21.88px]" />
                       </button>
                     </td>
                   </tr>
@@ -73,23 +74,23 @@ function Cart () {
           <div className="flex justify-evenly items-center mt-16 w-full space-x-7 p-20 h-[270px] bg-[#F9F1E7]">
                   
                   < div className="">
-                  <img src="/trophy 1.png" alt="Picture of the author" className="w-[60px] h-[60px]" />
+                  <Image src="/trophy 1.png" alt="Picture of the author" className="w-[60px] h-[60px]" />
                   
                     <h4 className=" font-bold">High Quality</h4>
                     <p className="text-[#898989]">crafted from top materials</p>
                   </div>
                   <div>
-                  <img src="/guarantee.png" alt="Picture of the author" className="w-[60px] h-[60px]" />
+                  <Image src="/guarantee.png" alt="Picture of the author" className="w-[60px] h-[60px]" />
                     <h4 className="font-bold">Warranty Protection</h4>
                     <p className="text-[#898989]">Over 2 years</p>
                   </div>
                   <div>
-                  <img src="/shipping.png" alt="Picture of the author" className="w-[60px] h-[60px]" />
+                  <Image src="/shipping.png" alt="Picture of the author" className="w-[60px] h-[60px]" />
                     <h4 className="font-bold">Free Shipping</h4>
                     <p className="text-[#898989]">Order over 150 $</p>
                   </div>
                   <div>
-                  <img src="/customer-support.png" alt="Picture of the author" className="w-[60px] h-[60px]" />
+                  <Image src="/customer-support.png" alt="Picture of the author" className="w-[60px] h-[60px]" />
                     <h4 className="font-bold">24 / 7 Support</h4>
                     <p className="text-[#898989]">Dedicated support</p>
                   </div>

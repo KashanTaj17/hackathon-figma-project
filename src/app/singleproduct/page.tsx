@@ -29,7 +29,7 @@ function Product () {
       <div className="flex flex-col md:flex-row gap-8 ">
         {/* Product Images */}
         <div className="flex flex-col gap-4 mx-24">
-          <img
+          <Image
             src="/Image_29.png"
             alt="Asgaard Sofa"
             className="w-full rounded-lg shadow-md"
@@ -107,12 +107,12 @@ function Product () {
         </div>
         <div className="p-4 justify-center items-center mx-36 pt-4">
           <p className="text-[#9F9F9F] justify-center">
-          Embodying the raw, wayward spirit of rock 'n' roll, the Kilburn portable active stereo speaker takes the unmistakable look and
-           sound of Marshall, unplugs the chords, and takes the show on the road. 
-           <br></br>
-           <br></br>
-        Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest <br></br>
-        speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange <br></br>
+          Embodying the raw wayward spirit of rock n roll the Kilburn portable active stereo speaker takes the unmistakable look and
+           sound of Marshall unplugs the chords and takes the show on the road.  <br></br>
+           
+          
+        Weighing in under 7 pounds the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest <br></br>
+        speakers in its class the Kilburn is a compact stout-hearted hero with a well-balanced audio which boasts a clear midrange <br></br>
         and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine tune the controls <br></br>
         to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.
           </p>
@@ -127,19 +127,19 @@ function Product () {
         <h2 className="text-2xl font-bold mb-4 text-center pt-5 pb-4">Related Products</h2>
         <div className="grid grid-cols-1 place-items-center text-center md:grid-cols-4 m-24 gap-6  ">
           <div className="border rounded-lg p-4 shadow-md space-y-2 font-bold ">
-            <img src="/image_01.png" alt="Chair" className="w-full h-[301px] mb-2 rounded-lg ]"  />
+            <Image src="/image_01.png" alt="Chair" className="w-full h-[301px] mb-2 rounded-lg ]"  />
             <p className="text-black ">Sylttherine</p>
             <p className="text-[#898989]">Stylish Cafe Chair</p>
             <p className="text-black">Rp 2,500,000</p>
           </div>
           <div className="border rounded-lg p-4 shadow-md space-y-2 font-bold">
-            <img src="/Images_23.png" alt="Chair" className="w-full h-[301px] mb-2 rounded-lg" />
+            <Image src="/Images_23.png" alt="Chair" className="w-full h-[301px] mb-2 rounded-lg" />
             <p className="text-black">Leviosa</p>
             <p className="text-[#898989]">Stylish Cafe Chair</p>
             <p className="text-black">Rp 2,500,000</p>
           </div>
           <div className="border rounded-lg p-4 shadow-md space-y-2 font-bold">
-            <img src="/image_03.png" alt="Sofa" className="w-full h-[301px] mb-2 rounded-lg" />
+            <Image src="/image_03.png" alt="Sofa" className="w-full h-[301px] mb-2 rounded-lg" />
             <p className="text-black">Lolito</p>
             <p className="text-[#898989]">Luxury Big Sofa</p>
             <p className="text-black">Rp 7,000,000</p>

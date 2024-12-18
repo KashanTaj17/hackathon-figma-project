@@ -27,7 +27,7 @@ function Slides () {
                 width={386}
                 alt="picEighteen"/>
 
-            <img
+            <Image
                 src="/image_19.png"
                 alt="Product"
                 className="w-[120px] h-[27px] top-[3333px] left-[992px] gap-20px object-cover mt-6"

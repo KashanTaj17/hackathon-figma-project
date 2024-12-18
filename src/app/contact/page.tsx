@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { IoLocation } from "react-icons/io5";
 export default function ContactPage() {
     return (
@@ -7,7 +8,7 @@ export default function ContactPage() {
           <div className="absolute inset-0 bg-black opacity-20"></div>
           <div className="relative z-10 flex items-center justify-center h-full text-center">            
             <div>
-            <img src="/Logo101.png" alt="logoo" className="w-[89px] h-[89px] ml-8" />
+            <Image src="/Logo101.png" alt="logoo" className="w-[89px] h-[89px] ml-8" />
               <h1 className="text-4xl font-bold text-black mb-2">Contact</h1>
               <p className="text-black text-sm">Home &gt; Contact</p>
             </div>
@@ -110,22 +111,22 @@ export default function ContactPage() {
         {/* Footer */}
         <div className="flex justify-between p-20 w-full mr-12 h-[270px] items-center mt-12 bg-[#FAF3EA] text-center">
           <div className="">
-            <img src="/trophy 1.png" alt="Picture of the authore" className="w-[60px] h-[60px] ml-10" />
+            <Image src="/trophy 1.png" alt="Picture of the authore" className="w-[60px] h-[60px] ml-10" />
             <h4 className="font-bold">High Quality</h4>
             <p className="text-[#898989]">Crafted from top materials</p>
           </div>
           <div>
-          <img src="/guarantee.png" alt="Picture of the authore" className="w-[60px] h-[60px] ml-10" />
+          <Image src="/guarantee.png" alt="Picture of the authore" className="w-[60px] h-[60px] ml-10" />
             <h4 className="font-bold ">Warranty Protection</h4>
             <p className="text-[#898989]">Over 2 years</p>
           </div>
           <div>
-          <img src="/shipping.png" alt="Picture of the authore" className="w-[60px] h-[60px] ml-10" />
+          <Image src="/shipping.png" alt="Picture of the authore" className="w-[60px] h-[60px] ml-10" />
             <h4 className="font-bold">Free Shipping</h4>
             <p className="text-[#898989]">Order over 150$</p>
           </div>
           <div>
-          <img src="/customer-support.png" alt="Picture of the authore" className="w-[60px] h-[60px] ml-10" />
+          <Image src="/customer-support.png" alt="Picture of the authore" className="w-[60px] h-[60px] ml-10" />
             <h4 className="font-bold">24 / 7 Support</h4>
             <p className="text-[#898989]">Dedicated support</p>
           </div>
